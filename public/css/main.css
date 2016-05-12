@@ -1,0 +1,161 @@
+.header-text.btn {
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    padding: 10px 30px;
+    height: 100px;
+}
+
+.header-text.btn:hover {
+    color: inherit;
+}
+
+.header-text.btn:focus,
+.header-text.btn:active:focus,
+.header-text.btn.active:focus,
+.header-text.btn.focus,
+.header-text.btn:active.focus,
+.header-text.btn.active.focus {
+    outline: thin dotted transparent;
+    outline: none;
+    outline-offset: -2px;
+}
+
+.typed-cursor {
+    opacity: 1;
+    padding: 10px 2px;
+    background: #ffffff;
+    margin: 10px;
+    -webkit-animation: blink 0.5s linear infinite;
+    -moz-animation: blink 0.5s linear infinite;
+    animation: blink 0.5s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+span.typed-cursor {
+    top: -5px;
+    position: relative;
+}
+
+#head-title{
+    color:white;
+}
+
+hr {
+    width: 50px;
+    border-color: #68c3a3;
+}
+
+.add-margin {
+    margin-top: 200px;
+}
+
+nav#menu span.fa.fa-bars {
+    font-size: 30px;
+    position: fixed;
+    margin-top : 50px;
+    left: 50px;
+    color: #c0c0c0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.navmenu, .navbar-offcanvas {
+    width: 270px;
+    z-index: 10;
+}
+
+.navmenu-default,
+.navbar-default .navbar-offcanvas {
+    background-color: #1E2429;
+    border-color: #1E2429;
+    border: 0;
+}
+
+.navmenu-default .navmenu-nav > li > a:hover,
+.navbar-default .navbar-offcanvas .navmenu-nav > li > a:hover,
+.navmenu-default .navmenu-nav > li > a:focus,
+.navbar-default .navbar-offcanvas .navmenu-nav > li > a:focus {
+    color: #68c3a3;
+    background-color: transparent;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navmenu-default .navmenu-nav > li > a,
+.navbar-default .navbar-offcanvas .navmenu-nav > li > a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+nav#menu span.fa.fa-bars:hover {
+    color: #68c3a3;
+}
+
+.navmenu-default .navmenu-nav > .active > a,
+.navbar-default .navbar-offcanvas .navmenu-nav > .active > a,
+.navmenu-default .navmenu-nav > .active > a:hover,
+.navbar-default .navbar-offcanvas .navmenu-nav > .active > a:hover,
+.navmenu-default .navmenu-nav > .active > a:focus,
+.navbar-default .navbar-offcanvas .navmenu-nav > .active > a:focus {
+    color: #C59A6D;
+    background-color: transparent;
+}
+
+.close:hover {
+    background: #68c3a3;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.close {
+    background: #fff;
+    padding: 10px 12px;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+#menu{
+
+}
